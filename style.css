@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Playpen Sans", cursive;
+}
+
+.container {
+  margin: auto;
+  max-width: 1400px;
+  padding: 0px 32px;
+}
+
+nav {
+  width: 100%;
+  padding: 30px 0px;
+  position: fixed;
+  color: white;
+}
+nav .headerortalama {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .center ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+nav .right ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.section1 {
+  width: 100%;
+  background-image: url("master-slides-02.jpg.webp");
+  height: 100vh;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1 .section1ortalama .section1text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.section1 .section1ortalama .section1text h1 {
+  font-size: 70px;
+}
+.section1 .section1ortalama .section1text span {
+  font-size: 50px;
+}
+.section1 .section1ortalama .section1text button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: aliceblue;
+  color: palevioletred;
+}/*# sourceMappingURL=style.css.map */
